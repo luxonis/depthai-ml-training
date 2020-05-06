@@ -1,4 +1,4 @@
-Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. 
+Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
 The tutorial notebook 
 [Easy_Object_Detection_With_Custom_Data_Demo_Training](https://drive.google.com/open?id=1p1KEb37RS3h5HvjxSzcByeCmWdhdYBOD) shows how to quickly train an object detector based on the Mobilenet SSDv2 network. After training is complete, it also shows how to convert the model to a format usable by OpenVINO called Intermediate Representation, or IR. The IR model can then be [converted locally to a blob](https://github.com/luxonis/depthai#conversion-of-existing-trained-models-into-intel-movidius-binary-format) in order to run on our DepthAI platform and modules. And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information.
