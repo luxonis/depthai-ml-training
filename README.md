@@ -14,4 +14,6 @@ Google Colaboratory is a great tool to do so!  It allows you to train neural mod
 
 It is exactly intended for this proof of concept and initial research.  And if you hit the limits of the free account, you can upgtrade to a Pro version of Google Colab for only $10/month.
 
+You can browse (and open/use) all the Jupyter Notebooks in this repo by clicking on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training).  
+
 
