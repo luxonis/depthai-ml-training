@@ -14,6 +14,8 @@ And that's it, in less than a couple of hours a fairly advanced proof of concept
 
 [![Real-time 3D Strawberry Detector](http://img.youtube.com/vi/CP-nM6CjhU4/0.jpg)](https://www.youtube.com/watch?v=CP-nM6CjhU4 "Real-Time Spatial AI to Pick Strawberries")
 
+The above example used a DepthAI Modular Cameras Edition ([BW1098FFC](https://shop.luxonis.com/products/depthai-usb3-edition)).
+
 ### COVID-19 Mask/No-Mask Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Corona%20Mask%20Detection%20Demo%20Training.ipynb)
 The *Corona Mask Detection Demo Training.ipynb* training notebook shows another example of a more complex object detector. The training data set consists of people wearing or not wearing masks for viral protection. There are almost 700 pictures with approximately 3600 bounding box annotations. The images are complex: they vary quite a lot in scale and composition. Nonetheless, the object detector does quite a good job with this relatively small dataset for such a task. Again, training takes around 2 hours. Depending on which GPU the Colab lottery assigns to the notebook instance, training 10k steps can take 2.5 hours or 1.5 hours. Either way, a short period for such a good quality proof of concept for such a difficult task. 
 We then performed the steps above for converting to blob and then running it on our DepthAI module. 
