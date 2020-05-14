@@ -4,6 +4,8 @@ We want you to be able to train your own neural models (object detectors) for De
 
 This repository contains some pre-trained models under `model-zoo` and the Jupyter Notebooks we used to produce these neural models in `colab notebooks`.
 
+Use the `model-zoo` models if we happened to already train something you need (and see [here](https://github.com/luxonis/depthai/tree/master/resources/nn) for models that Intel already trained that run on DepthAI already) and use the `colab notebooks` if you'd like to train something new or improve upon the training we've already done.
+
 ## What is DepthAI?
 
 It's the platform for Embedded Spatial AI and Embedded AI.  Four trillion operations on a tiny device which can ouput structured data of what is in the physical world - what it is, and where it is in meters - in real-time.
