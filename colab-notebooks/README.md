@@ -12,7 +12,6 @@ After training is complete, it also shows how to convert the model to a format u
 
 And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information (i.e. xyz location).
 
-https://youtu.be/CP-nM6CjhU4
 [![Real-time 3D Strawberry Detector](http://img.youtube.com/vi/CP-nM6CjhU4/0.jpg)](https://www.youtube.com/watch?v=CP-nM6CjhU4 "Real-Time Spatial AI to Pick Strawberries")
 
 ### COVID-19 Mask/No-Mask Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Corona%20Mask%20Detection%20Demo%20Training.ipynb)
