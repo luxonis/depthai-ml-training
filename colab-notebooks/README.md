@@ -10,7 +10,7 @@ The tutorial notebook
 
 After training is complete, it also shows how to convert the model to a format usable by OpenVINO called Intermediate Representation, or IR. The IR model can then be [converted locally to a blob](https://github.com/luxonis/depthai#conversion-of-existing-trained-models-into-intel-movidius-binary-format) in order to run on our DepthAI platform and modules. 
 
-And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information (i.e. xyz location).
+And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information (i.e. xyz location). For example this notebook was used to train DepthAI to locate strawberries in 3D space, see below:
 
 [![Real-time 3D Strawberry Detector](http://img.youtube.com/vi/CP-nM6CjhU4/0.jpg)](https://www.youtube.com/watch?v=CP-nM6CjhU4 "Real-Time Spatial AI to Pick Strawberries")
 
