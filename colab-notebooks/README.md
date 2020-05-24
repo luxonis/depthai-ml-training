@@ -26,4 +26,12 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 
 [![COVID19 Mask Detector](http://img.youtube.com/vi/d_oUxDzWHd0/0.jpg)](https://www.youtube.com/watch?v=d_oUxDzWHd0 "COVID19 Mask/No-Mask")
 
+## Supporting Notebooks
+
+### Image Resize in Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/GDrive-Resize.ipynb)
+
+This notebook operates on your set of images in Google Drive to resize them to the format needed by the training notebooks.  See our documentation [here](https://docs.luxonis.com/tutorials/object_det_mnssv2_training/#step-1-find-or-generate-images-of-the-objects-of-interest) for more details.
+
+
+
 
