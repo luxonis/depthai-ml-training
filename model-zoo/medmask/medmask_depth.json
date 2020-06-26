@@ -21,9 +21,8 @@
         "labels":
         [
             "background",
-            "no mask",
-            "mask",
-            "no mask"
+            "no-mask",
+            "mask"
         ]
     }
 }
