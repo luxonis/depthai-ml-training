@@ -14,7 +14,7 @@ After training is complete, it also converts the model to a .blob file that runs
 
 And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information (i.e. xyz location). For example this notebook was used to train DepthAI to locate strawberries in 3D space, see below:
 
-[![Real-time 3D Strawberry Detector](http://img.youtube.com/vi/CP-nM6CjhU4/0.jpg)](https://www.youtube.com/watch?v=CP-nM6CjhU4 "Real-Time Spatial AI to Pick Strawberries")
+[![Real-time 3D Strawberry Detector](https://i.imgur.com/Cz7eZUo.jpg)](https://www.youtube.com/watch?v=Okjh2OCP-o8& "Real-Time Spatial AI to Pick Strawberries")
 
 The above example used a DepthAI Modular Cameras Edition ([BW1098FFC](https://shop.luxonis.com/products/depthai-usb3-edition)).
 
