@@ -4,7 +4,13 @@ Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebo
 ## The Tutorials
 The below tutorials are based on MobileNetv2-SSD, which is a decent-performance, decent-framework object dectector which natively runs on DepthAI.  A bunch of other object detectors could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!
 
-### Easy Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
+### Tiny YOLOv3 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
+
+This tutorial shows how to quickly train an object detector based on the YOLOv3-tiny network.
+
+[![TinyYoloMaskDemo](https://user-images.githubusercontent.com/5244214/90792755-2a2da000-e30b-11ea-9cf3-b2f6cd4b00c4.gif)](https://www.youtube.com/watch?v=LkJi7Kp7U-o&feature=youtu.be)
+
+### MobileNetSSDv2 Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
 The tutorial notebook 
 *Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb* shows how to quickly train an object detector based on the Mobilenet SSDv2 network. 
 
@@ -14,7 +20,7 @@ After training is complete, it also converts the model to a .blob file that runs
 
 And that's it, in less than a couple of hours a fairly advanced proof of concept object detector can run on DepthAI to detect objects of your choice and their associated spatial information (i.e. xyz location). For example this notebook was used to train DepthAI to locate strawberries in 3D space, see below:
 
-[![Real-time 3D Strawberry Detector](https://i.imgur.com/Cz7eZUo.jpg)](https://www.youtube.com/watch?v=Okjh2OCP-o8& "Real-Time Spatial AI to Pick Strawberries")
+[![Real-time 3D Strawberry Detector](https://user-images.githubusercontent.com/5244214/90794705-6104b580-e30d-11ea-8275-468b300b4659.gif)](https://www.youtube.com/watch?v=Okjh2OCP-o8& "Real-Time Spatial AI to Pick Strawberries")
 
 The above example used a DepthAI Modular Cameras Edition ([BW1098FFC](https://shop.luxonis.com/products/depthai-usb3-edition)).
 
@@ -24,7 +30,7 @@ We then performed the steps above for converting to blob and then running it on 
 
 Below is a quick test of the model produced with this notebook on Luxonis DepthAI Onboard Cameras Edition ([BW1098OBC](https://shop.luxonis.com/products/bw10980bc)):
 
-[![COVID19 Mask Detector](http://img.youtube.com/vi/d_oUxDzWHd0/0.jpg)](https://www.youtube.com/watch?v=d_oUxDzWHd0 "COVID19 Mask/No-Mask")
+[![COVID19 Mask Detector](https://user-images.githubusercontent.com/5244214/90733159-74436100-e2cc-11ea-8fb6-d4be937d90e5.gif)](https://www.youtube.com/watch?v=d_oUxDzWHd0 "COVID19 Mask/No-Mask")
 
 ## Supporting Notebooks
 
