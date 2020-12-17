@@ -4,9 +4,11 @@ Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebo
 ## The Tutorials
 The below tutorials are based on MobileNetv2-SSD, which is a decent-performance, decent-framework object dectector which natively runs on DepthAI.  A bunch of other object detectors could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!
 
+### Tiny YOLOv4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYOLOv4_Object_Detector_Training_on_Custom_Data.ipynb)
+
 ### Tiny YOLOv3 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
 
-This tutorial shows how to quickly train an object detector based on the YOLOv3-tiny network.
+These two tutorials show how to quickly train an object detector based on the YOLOv4-tiny and YOLOv3-tiny network.
 
 [![TinyYoloMaskDemo](https://user-images.githubusercontent.com/5244214/90792755-2a2da000-e30b-11ea-9cf3-b2f6cd4b00c4.gif)](https://www.youtube.com/watch?v=LkJi7Kp7U-o&feature=youtu.be)
 
