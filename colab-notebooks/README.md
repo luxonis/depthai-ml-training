@@ -41,12 +41,13 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 
 This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone.  Examples of such trained networks are below:
 
-Aerial Semantic Segmentation for UAV disaster recovery or automated landing:
+#### Aerial Semantic Segmentation for UAV disaster recovery or automated landing:
 [![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
 
-Person semantic segmentation (could be used to get the closest portion of a person, for example):
+#### Person semantic segmentation
+[![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102668154-76b5aa80-4148-11eb-9a5f-67b19983af5f.png)](https://www.youtube.com/watch?v=cSDATr7Ja28 "Deeplabv3+ Custom Training for DepthAI")
 
-
+This semantic segmentation could be combined with depth information from DepthAI to get the full xyz position of every voxel of the entire visible portion of a person, for example.
 
 ## Supporting Notebooks
 
