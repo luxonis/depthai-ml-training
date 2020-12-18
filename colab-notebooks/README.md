@@ -42,7 +42,8 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone.  Examples of such trained networks are below:
 https://youtu.be/1EB5bpmUq1Q
 
-[![Semantic Segmentation on DepthAI](https://img.youtube.com/vi/SWDQekolM8o/0.jpg)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
+[![Semantic Segmentation on DepthAI](![image](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)
+)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
 
 ## Supporting Notebooks
 
