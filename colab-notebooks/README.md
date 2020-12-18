@@ -36,6 +36,14 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 
 [![COVID19 Mask Detector](https://user-images.githubusercontent.com/5244214/90733159-74436100-e2cc-11ea-8fb6-d4be937d90e5.gif)](https://www.youtube.com/watch?v=d_oUxDzWHd0 "COVID19 Mask/No-Mask")
 
+
+### Deeplabv3+ Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabv3plus%2BMobilenetv2_HighLevelDemo.ipynb)
+
+This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone.  Examples of such trained networks are below:
+https://youtu.be/1EB5bpmUq1Q
+
+[![Semantic Segmentation on DepthAI](https://img.youtube.com/vi/SWDQekolM8o/0.jpg)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
+
 ## Supporting Notebooks
 
 ### Image Resize in Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/GDrive-Resize.ipynb)
