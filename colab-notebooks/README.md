@@ -40,10 +40,13 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 ### Deeplabv3+ Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabv3plus%2BMobilenetv2_HighLevelDemo.ipynb)
 
 This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone.  Examples of such trained networks are below:
-https://youtu.be/1EB5bpmUq1Q
 
-[![Semantic Segmentation on DepthAI](![image](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)
-)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
+Aerial Semantic Segmentation for UAV disaster recovery or automated landing:
+[![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
+
+Person semantic segmentation (could be used to get the closest portion of a person, for example):
+
+
 
 ## Supporting Notebooks
 
