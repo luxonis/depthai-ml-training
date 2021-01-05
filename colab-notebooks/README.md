@@ -2,7 +2,22 @@
 Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
 ## The Tutorials
-The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!
+The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
+
+After training your own model, you can run it on DepthAI with the following:
+
+## Running the model 
+Now we use the created model, in its .blob format, to run it on DepthAI. In your DepthAI folder, go to the `resources/nn` directory. There you will see a folder called `mobilenet-ssd`. Since your model is also a mobilenet ssd, make a copy of that folder and rename it as you see fit for your model. If you trained a model for dog breeds, you could call it dog_detective. Enter the folder and delete the mobilenet-ssd.blob. Paste here your own blob from above and give it the same name as the folder, i.e. 'dog_detective.blob'. Also rename the .json files to match the folder and blob name, i.e. 'dog_detective.json' and 'dog_detective_depth.json'.
+
+In both the .json files you will see a category called labels. Those are the default mobilenet-ssd labels trained on Pascal '07 dataset. Modify the labels according to the labels for your trained model. So if you had 4 dog breeds in the dog_detective, write those 4 breeds in the order you have them in your training data labels. Of course, remove all the unnecessary labels, except for "background". This label must remain and always on top. You should end up with "background" + your labels, i.e. 5 labels in total for the dog_detective. If the model consistently predicts a poodle as a husky for example, it most likely means your labels are not in the correct order. Don't worry, just change the order of the labels to match the detections.
+
+Remember, you have to change the labels in both .json files.
+
+You are ready to run your very own trained model on DepthAI. Open a terminal in your DepthAI directory and run:
+`python3 depthai_demo.py -cnn <your folder name>` i.e. `python3 depthai_demo.py -cnn dog_detective`
+
+If you wish to disable the spatial measurements associated with the detected objects, run the comand with the '-dd' (disable depth) flag.
+`python3 depthai_demo.py -dd -cnn <your folder name>`
 
 ### Tiny YOLOv3 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
 
