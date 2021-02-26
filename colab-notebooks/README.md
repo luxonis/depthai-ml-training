@@ -60,9 +60,12 @@ This tutorial shows you how to train semantic-segmentation networks with Deeplab
 [![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
 
 #### Person semantic segmentation
-[![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102668154-76b5aa80-4148-11eb-9a5f-67b19983af5f.png)](https://www.youtube.com/watch?v=cSDATr7Ja28 "Deeplabv3+ Custom Training for DepthAI")
+[![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/109359126-25a9ed00-7842-11eb-9071-cddc7439e3ca.png)](https://www.youtube.com/watch?v=zjcUChyyNgI "Deeplabv3+ Custom Training for DepthAI")
 
 This semantic segmentation could be combined with depth information from DepthAI to get the full xyz position of every voxel of the entire visible portion of a person, for example.
+
+See this Gen2 API example for running this on DepthAI:
+https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 
 ## Supporting Notebooks
 
