@@ -1,3 +1,10 @@
+## Check Out RoboFlow!
+
+So RoboFlow also has several tutorials on training custom models for OAK and OAK-D.  See some below:
+
+ - https://blog.roboflow.com/luxonis-oak-d-custom-model/
+ - https://blog.roboflow.com/deploy-luxonis-oak/
+
 ## Start with the why!
 
 We want you to be able to train your own neural models (object detectors) for DepthAI.  
@@ -18,11 +25,6 @@ It is exactly intended for this proof of concept and initial research.  And if y
 
 You can browse (and open/use) all the Jupyter Notebooks in this repo by clicking on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training).  
 
-## Check Out RoboFlow!
 
-So RoboFlow also has several tutorials on training custom models for OAK and OAK-D.  See some below:
-
- - https://blog.roboflow.com/luxonis-oak-d-custom-model/
- - https://blog.roboflow.com/deploy-luxonis-oak/
 
 
