@@ -1,3 +1,13 @@
+
+## Check Out RoboFlow!
+
+We are now working with partners who have developed (better) tutorials for training for DephtAI
+
+RoboFlow also has several tutorials on training custom models for depthai, including OAK-1 and OAK-D, but the same training is applicable for any/all DepthAI devices.  See some below:
+
+ - https://blog.roboflow.com/luxonis-oak-d-custom-model/
+ - https://blog.roboflow.com/deploy-luxonis-oak/
+
 ## Overview
 Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
