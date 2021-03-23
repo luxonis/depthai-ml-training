@@ -64,7 +64,7 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 
 ### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabv3plus%2BMobilenetv2_HighLevelDemo.ipynb)
 
-**DEPRECATED**
+**WARNING! THIS TUTORIAL IS DEPRECATED**
 
 Note that this Colab notebook is now deprecated.  We recommend using Super Annotate's notebook for Deeplabv3+ training instead:
 [https://github.com/superannotateai/model-deployment-tutorials/blob/main/OAK/SuperAnnotate_OAK_Deeplabv3%2B_Deployment.ipynb](https://github.com/superannotateai/model-deployment-tutorials/blob/main/OAK/SuperAnnotate_OAK_Deeplabv3%2B_Deployment.ipynb)
