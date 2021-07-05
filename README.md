@@ -1,9 +1,6 @@
 ## Check Out RoboFlow!
 
-So RoboFlow also has several tutorials on training custom models for OAK and OAK-D.  See some below:
-
- - https://blog.roboflow.com/luxonis-oak-d-custom-model/
- - https://blog.roboflow.com/deploy-luxonis-oak/
+We at Luxonis encourage our users to try out [RoboFlow](https://roboflow.com/) for annotating, training and deploying their ML models, especially if you are new to the ML world. They have created a [course for the DepthAI platform](https://roboflow.com/course) that is a great starting point for everyone. They also have two blog posts, [quickstart guide](https://blog.roboflow.com/deploy-luxonis-oak/) and training [custom object detection model](https://blog.roboflow.com/luxonis-oak-d-custom-model/) with their platform, which are both tailored for DepthAI devices.
 
 ## Start with the why!
 
