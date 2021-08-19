@@ -62,14 +62,13 @@ Below is a quick test of the model produced with this notebook on Luxonis DepthA
 [![COVID19 Mask Detector](https://user-images.githubusercontent.com/5244214/90733159-74436100-e2cc-11ea-8fb6-d4be937d90e5.gif)](https://www.youtube.com/watch?v=d_oUxDzWHd0 "COVID19 Mask/No-Mask")
 
 
-### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabv3plus%2BMobilenetv2_HighLevelDemo.ipynb)
+### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabV3plus_MNV2.ipynb)
 
-**WARNING! THIS TUTORIAL IS DEPRECATED**
+This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone. 
 
-Note that this Colab notebook is now deprecated.  We recommend using Super Annotate's notebook for Deeplabv3+ training instead:
-[https://github.com/superannotateai/model-deployment-tutorials/blob/main/OAK/SuperAnnotate_OAK_Deeplabv3%2B_Deployment.ipynb](https://github.com/superannotateai/model-deployment-tutorials/blob/main/OAK/SuperAnnotate_OAK_Deeplabv3%2B_Deployment.ipynb)
+You can test the trained model with [this experiment](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_multiclass).
 
-This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone.  Examples of such trained networks are below:
+ Examples of such trained networks are below:
 
 #### Aerial Semantic Segmentation for UAV disaster recovery or automated landing:
 [![Semantic Segmentation on DepthAI](https://user-images.githubusercontent.com/32992551/102667886-c182f280-4147-11eb-904c-c8c89d9706a7.png)](https://www.youtube.com/watch?v=1EB5bpmUq1Q "Deeplabv3+ Custom Training for DepthAI")
@@ -87,7 +86,6 @@ https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 ### Image Resize in Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/GDrive-Resize.ipynb)
 
 This notebook operates on your set of images in Google Drive to resize them to the format needed by the training notebooks.  See our documentation [here](https://docs.luxonis.com/tutorials/object_det_mnssv2_training/#step-1-find-or-generate-images-of-the-objects-of-interest) for more details.
-
 
 
 
