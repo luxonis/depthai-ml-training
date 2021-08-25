@@ -39,6 +39,10 @@ These two tutorials show how to quickly train an object detector based on the YO
 
 Just like the Tiny YOLOv3 tutorial above, you can train your own Tiny YOLOv4 network
 
+### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
+
+This tutorial shows how to train YOLOv5 on your own dataset.
+
 ### MobileNetSSDv2 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
 The tutorial notebook 
 *Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb* shows how to quickly train an object detector based on the Mobilenet SSDv2 network. 
