@@ -86,7 +86,7 @@ This semantic segmentation could be combined with depth information from DepthAI
 See this Gen2 API example for running this on DepthAI:
 https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 
-#### YOLOv5 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
+#### YOLOv5 Custom Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
 
 This tutorial shows you how to train the popular YOLOv5 model and deploy it on any OAK model.
 
