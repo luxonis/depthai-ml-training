@@ -1,18 +1,19 @@
 
-## Check Out RoboFlow!
+## Overview
+Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
-We are now working with partners who have developed (better) tutorials for training for DephtAI
+## Don't Want to Use Colab?  Check Out RoboFlow!
+
+The tutorials below are great if you are a do-it-yourself type.  As all the code is there - and you can take it and run.  But what if you're the "I just want a model that works type - don't care how" type - then checkout Roboflow.  It has a clean and pain-free way to manage your dataset and do custom training.
 
 RoboFlow also has several tutorials on training custom models for depthai, including OAK-1 and OAK-D, but the same training is applicable for any/all DepthAI devices.  See some below:
 
  - https://blog.roboflow.com/luxonis-oak-d-custom-model/
  - https://blog.roboflow.com/deploy-luxonis-oak/
 
-## Overview
-Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
 ## The Tutorials
-The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
+The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
 
 After training your own model, you can run it on DepthAI with the following:
 
@@ -84,6 +85,13 @@ This semantic segmentation could be combined with depth information from DepthAI
 
 See this Gen2 API example for running this on DepthAI:
 https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
+
+#### YOLOv5 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
+
+This tutorial shows you how to train the popular YOLOv5 model and deploy it on any OAK model.
+
+![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
+![example01_SKU (1)](https://user-images.githubusercontent.com/32992551/135536028-b014d456-4899-43be-b9ab-3fbde37281a4.gif)
 
 ## Supporting Notebooks
 
