@@ -42,7 +42,10 @@ Just like the Tiny YOLOv3 tutorial above, you can train your own Tiny YOLOv4 net
 
 ### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
 
-This tutorial shows how to train YOLOv5 on your own dataset.
+This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
+
+![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
+![example01_SKU (1)](https://user-images.githubusercontent.com/32992551/135536028-b014d456-4899-43be-b9ab-3fbde37281a4.gif)
 
 ### MobileNetSSDv2 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
 The tutorial notebook 
@@ -86,12 +89,6 @@ This semantic segmentation could be combined with depth information from DepthAI
 See this Gen2 API example for running this on DepthAI:
 https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 
-#### YOLOv5 Custom Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
-
-This tutorial shows you how to train the popular YOLOv5 model and deploy it on any OAK model.
-
-![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
-![example01_SKU (1)](https://user-images.githubusercontent.com/32992551/135536028-b014d456-4899-43be-b9ab-3fbde37281a4.gif)
 
 ## Supporting Notebooks
 
