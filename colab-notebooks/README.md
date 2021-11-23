@@ -30,22 +30,21 @@ You are ready to run your very own trained model on DepthAI. Open a terminal in 
 If you wish to disable the spatial measurements associated with the detected objects, run the comand with the '-dd' (disable depth) flag.
 `python3 depthai_demo.py -dd -cnn <your folder name>`
 
-### Tiny YOLOv3 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
 
-These two tutorials show how to quickly train an object detector based on the YOLOv4-tiny and YOLOv3-tiny network.
 
-[![TinyYoloMaskDemo](https://user-images.githubusercontent.com/5244214/90792755-2a2da000-e30b-11ea-9cf3-b2f6cd4b00c4.gif)](https://www.youtube.com/watch?v=LkJi7Kp7U-o&feature=youtu.be)
+### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV3_V4_tiny_training)
 
-### Tiny YOLOv4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYOLOv4_Object_Detector_Training_on_Custom_Data.ipynb)
+These tutorial shows how to train an object detector based on the YoloV4-tiny and YoloV3-tiny networks. It describes the right data format, training steps, and provides further information.
 
-Just like the Tiny YOLOv3 tutorial above, you can train your own Tiny YOLOv4 network
+![TinyYoloV4Example](https://user-images.githubusercontent.com/56075061/143061151-07157024-4189-420d-b603-2cb3ec926bf5.png)
 
 ### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
 
 This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
 
 ![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
-![example01_SKU (1)](https://user-images.githubusercontent.com/32992551/135536028-b014d456-4899-43be-b9ab-3fbde37281a4.gif)
+
+
 
 ### MobileNetSSDv2 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
 The tutorial notebook 
@@ -96,5 +95,18 @@ https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 
 This notebook operates on your set of images in Google Drive to resize them to the format needed by the training notebooks.  See our documentation [here](https://docs.luxonis.com/tutorials/object_det_mnssv2_training/#step-1-find-or-generate-images-of-the-objects-of-interest) for more details.
 
+## Deprecated tutorials
+
+<details>
+    <summary>Old YoloV3-tiny tutorial</summary>
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
+    These two tutorials show how to quickly train an object detector based on the YOLOv4-tiny and YOLOv3-tiny network.
+</details>
+
+<details>
+    <summary>Old YoloV4-tiny tutorial</summary>
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYOLOv4_Object_Detector_Training_on_Custom_Data.ipynb)
+    Just like the Tiny YOLOv3 tutorial above, you can train your own Tiny YOLOv4 network
+</details>
 
 
