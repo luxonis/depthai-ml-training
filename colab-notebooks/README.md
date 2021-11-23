@@ -97,16 +97,8 @@ This notebook operates on your set of images in Google Drive to resize them to t
 
 ## Deprecated tutorials
 
-<details>
-    <summary>Old YoloV3-tiny tutorial</summary>
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
-    These two tutorials show how to quickly train an object detector based on the YOLOv4-tiny and YOLOv3-tiny network.
-</details>
-
-<details>
-    <summary>Old YoloV4-tiny tutorial</summary>
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYOLOv4_Object_Detector_Training_on_Custom_Data.ipynb)
-    Just like the Tiny YOLOv3 tutorial above, you can train your own Tiny YOLOv4 network
-</details>
-
+* Old YoloV3-tiny tutorial
+    [Open In Colab](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYolov3_Object_Detector_Training_on_Custom_Data.ipynb)
+* Old YoloV4-tiny tutorial
+    [Open In Colab](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_TinyYOLOv4_Object_Detector_Training_on_Custom_Data.ipynb)
 
