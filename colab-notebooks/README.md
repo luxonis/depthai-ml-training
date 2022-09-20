@@ -13,7 +13,7 @@ RoboFlow also has several tutorials on training custom models for depthai, inclu
 
 
 ## The Tutorials
-The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
+The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5, YOLOv7 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
 
 After training your own model, you can run it on DepthAI with the following:
 
@@ -31,7 +31,6 @@ If you wish to disable the spatial measurements associated with the detected obj
 `python3 depthai_demo.py -dd -cnn <your folder name>`
 
 
-
 ### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV3_V4_tiny_training.ipynb)
 
 These tutorial shows how to train an object detector based on the YoloV4-tiny and YoloV3-tiny networks. It describes the right data format, training steps, and provides further information.
@@ -44,7 +43,9 @@ This tutorial shows you how to train the popular YOLOv5 model and then deploy it
 
 ![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
 
+### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV7_training.ipynb)
 
+This tutorial shows you how to train the popular YOLOv7 model and then deploy it on your OAK model.
 
 ### MobileNetSSDv2 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb)
 The tutorial notebook 
