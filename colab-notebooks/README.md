@@ -38,10 +38,14 @@ These tutorial shows how to train an object detector based on the YoloV4-tiny an
 ![TinyYoloV4Example](https://user-images.githubusercontent.com/56075061/143061151-07157024-4189-420d-b603-2cb3ec926bf5.png)
 
 ### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV5_training.ipynb)
-
+N
 This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
 
 ![asdfasdfdsasdf](https://user-images.githubusercontent.com/32992551/135535957-4c945ff0-1ed7-43c8-8be5-f2efebb84f19.png)
+
+### YOLOv6 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV6_training.ipynb)
+
+This tutorial shows you how to train the popular YOLOv6 model and then deploy it on your OAK model.
 
 ### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV7_training.ipynb)
 
