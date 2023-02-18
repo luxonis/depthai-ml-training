@@ -13,7 +13,7 @@ RoboFlow also has several tutorials on training custom models for depthai, inclu
 
 
 ## The Tutorials
-The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5, YOLOv7 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
+The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5, YOLOv6, YOLOv7, YOLOv8 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
 
 After training your own model, you can run it on DepthAI with the following:
 
@@ -50,6 +50,10 @@ This tutorial shows you how to train the popular YOLOv6 model and then deploy it
 ### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV7_training.ipynb)
 
 This tutorial shows you how to train the popular YOLOv7 model and then deploy it on your OAK model.
+
+### YOLOv8 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/YoloV8_training.ipynb)
+
+This tutorial shows you how to train the popular YOLOv8 model and then deploy it on your OAK model.
 
 ### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/DeepLabV3plus_MNV2.ipynb)
 
