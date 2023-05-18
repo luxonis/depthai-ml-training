@@ -13,7 +13,7 @@ RoboFlow also has several tutorials on training custom models for depthai, inclu
 
 
 ## The Tutorials
-The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5, YOLOv6, YOLOv7, YOLOv8 and Deeplabv3+ (semantic segmentation).  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
+The below tutorials cover MobileNetv2-SSD, tiny-YOLOv3, tiny-YOLOv4, YOLOv5, YOLOv6, YOLOv7, YOLOv8, Deeplabv3+ (semantic segmentation) and simple Neural Network trained on image classification task using Tensorflow.  A bunch of other object detectors and neural networks could be trained/supported on Colab and run on DepthAI, so if you have a request for a different object detector/network backend, please feel free to make a Github Issue!  Select a type of model to train from below, and get it training.
 
 After training your own model, you can run it on DepthAI with the following:
 
@@ -74,6 +74,9 @@ This semantic segmentation could be combined with depth information from DepthAI
 See this Gen2 API example for running this on DepthAI:
 https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 
+### Simple Neural Network trained on image classification task using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/OpenVINO_OpenCV_OAK_Tensorflow_Image_Classification.ipynb)
+
+This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
 
 ## Supporting Notebooks
 
