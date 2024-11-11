@@ -1,0 +1,57 @@
+model:
+  name: cat_dog_detection_model
+  predefined_model:
+    name: DetectionModel
+    params:
+      variant: light
+
+loader:
+  params:
+    dataset_name: cat_dogs_dataset
+
+trainer:
+  preprocessing:
+    train_image_size: [160, 160]
+    keep_aspect_ratio: true
+    normalize:
+      active: true
+
+    augmentations:
+      - name: Affine
+        params:
+          scale: [0.7, 1.7]
+          rotate: 20
+          shear: 5
+          p: 0.3
+      - name: HorizontalFlip
+        params:
+          p: 0.3
+      - name: ColorJitter
+        params:
+          brightness: [0.8, 1.2]
+          contrast: [0.8, 1.2]
+          saturation: [0.8, 1.2]
+          hue: 0
+          p: 0.2
+
+  batch_size: 8
+  epochs: &epochs 200
+  n_workers: 8
+  validation_interval: 10
+  n_log_images: 8
+
+  optimizer:
+    name: SGD
+    params:
+      lr: 0.05
+      momentum: 0.937
+      weight_decay: 0.0005
+      dampening: 0.0
+      nesterov: true
+
+  scheduler:
+    name: CosineAnnealingLR
+    params:
+      T_max: *epochs
+      eta_min: 0.0002
+      last_epoch: -1
