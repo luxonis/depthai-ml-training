@@ -2,7 +2,7 @@
 ## Overview
 Here we have examples of Google Colaboratory (aka Colab or simply colabs) notebooks trained on various datasets. They are free GPU instances, so great for prototyping and even simple production models.
 
-## Don't Want to Use Colab?  Check Out RoboFlow!
+## Don't Want to Use Colab? Check Out RoboFlow!
 
 The tutorials below are great if you are a do-it-yourself type.  As all the code is there - and you can take it and run.  But what if you're the "I just want a model that works type - don't care how" type - then checkout Roboflow.  It has a clean and pain-free way to manage your dataset and do custom training.
 
@@ -77,10 +77,3 @@ https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person
 ### Simple Neural Network trained on image classification task using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/OpenVINO_OpenCV_OAK_Tensorflow_Image_Classification.ipynb)
 
 This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
-
-## Supporting Notebooks
-
-### Image Resize in Google Drive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/master/colab-notebooks/GDrive-Resize.ipynb)
-
-This notebook operates on your set of images in Google Drive to resize them to the format needed by the training notebooks.  See our documentation [here](https://docs.luxonis.com/tutorials/object_det_mnssv2_training/#step-1-find-or-generate-images-of-the-objects-of-interest) for more details.
-

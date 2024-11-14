@@ -7,14 +7,14 @@
 This repository contains step by step tutorials on how to:
 
 1. Train your own ML model - either on default or custom dataset
-2. Convert the ML model so it's compatible with the [DepthAI](https://docs.luxonis.com/en/latest/) platform - conversion [docs here](https://docs.luxonis.com/en/latest/pages/model_conversion/)
+2. Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform - conversion [docs here](https://rvc4.docs.luxonis.com/software/ai-inference/conversion/)
 3. Deploy the ML model to the OAK camera, so it runs on the accelerated hardware on the edge
 
 <!-- ## Check Out RoboFlow!
 
 If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com/) for annotating, training and deploying  ML models, especially if you are new to the ML world. They have created a [course for the DepthAI platform](https://roboflow.com/course) that is a great starting point. They also have two blog posts, [quickstart guide](https://blog.roboflow.com/deploy-luxonis-oak/) and training [custom object detection model](https://blog.roboflow.com/luxonis-oak-d-custom-model/). -->
 
-## What is DepthAI?
+### What is DepthAI?
 
  `DepthAI` is the platform for [Spatial AI](https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai). 4 TOPS on a tiny device which can ouput structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
 
