@@ -22,7 +22,7 @@ If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com
 ## 📜 Table of contents
 
 - [🌟 Overview](#overview)
-- [Repository Structure](#repo-structure)
+- [📂 Repository Structure](#repo-structure)
 - [⚙️ Where to run](#run-env)
 - [⚠️ Limitations](#limitations)
 - [📄 License](#license)
@@ -30,7 +30,25 @@ If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com
 
 <a name="repo-structure"></a>
 
-## Repository Structure
+## 📂 Repository Structure
+
+    depthai-ml-training/
+    ├── datadreamer/                    - Folder with tutorials featuring DataDreamer
+    │   ├── ...
+    │   └── README.md                   - Short description of the DataDreamer and and links to github repository, documentation and all tutorials
+    ├── luxonis-train/                  - Folder with tutorials featuring LuxonisTrain
+    │   ├── ...
+    │   └── README.md                   - Short description of the LuxonisTrain and and links to github repository, documentation and all tutorials
+    ├── modelconverter/                 - Folder with tutorials featuring ModelConverter
+    │   ├── ...
+    │   └── README.md                   - Short description of the ModelConverter and links to github repository, documentation and all tutorials
+    ├── others/                         - Folder containing tutorials that aren't featuring any Luxonis library
+    │   ├── image-classification/       - Folder for all image classification training tutorials
+    │   ├── object-detection/           - Folder for all object detection training tutorials (YOLO)
+    │   ├── semantic-segmentation/      - Folder for all semantic segmentation training tutorials
+    │   └── README.md                   - Short description of all available tutorials
+    ├── LICENSE 
+    └── README.md                       - Description of the whole repository structure, introducing key libraries and terms, etc.
 
 <a name="run-env"></a>
 
