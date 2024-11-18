@@ -1,23 +1,20 @@
 # DepthAI ML Training
 
+> [!IMPORTANT]  
+> We are currently writing new tutorials and updating the old ones so that some details can be outdated. We appreciate your understanding!
+
 <a name ="overview"></a>
 
 ## 🌟 Overview
 
 This repository contains step by step tutorials on how to:
 
-1. Train your own ML model - either on default or custom dataset
-2. Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform - conversion [docs here](https://rvc4.docs.luxonis.com/software/ai-inference/conversion/)
-3. Deploy the ML model to the OAK camera, so it runs on the accelerated hardware on the edge
-
-<!-- ## Check Out RoboFlow!
-
-If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com/) for annotating, training and deploying  ML models, especially if you are new to the ML world. They have created a [course for the DepthAI platform](https://roboflow.com/course) that is a great starting point. They also have two blog posts, [quickstart guide](https://blog.roboflow.com/deploy-luxonis-oak/) and training [custom object detection model](https://blog.roboflow.com/luxonis-oak-d-custom-model/). -->
+- Train your own Machine Learning (ML) model - either on default or custom dataset
+- Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform - conversion [docs here](https://rvc4.docs.luxonis.com/software/ai-inference/conversion/)
 
 ### What is DepthAI?
 
- `DepthAI` is the platform for [Spatial AI](https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai). 4 TOPS on a tiny device which can ouput structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
-
+**DepthAI** is the platform for [Spatial AI](https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
 
 ## 📜 Table of contents
 
@@ -33,22 +30,18 @@ If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com
 ## 📂 Repository Structure
 
     depthai-ml-training/
-    ├── datadreamer/                    - Folder with tutorials featuring DataDreamer
+    ├── Conversion/                         - Folder with tutorials about ML model conversion
     │   ├── ...
-    │   └── README.md                   - Short description of the DataDreamer and and links to github repository, documentation and all tutorials
-    ├── luxonis-train/                  - Folder with tutorials featuring LuxonisTrain
-    │   ├── ...
-    │   └── README.md                   - Short description of the LuxonisTrain and and links to github repository, documentation and all tutorials
-    ├── modelconverter/                 - Folder with tutorials featuring ModelConverter
-    │   ├── ...
-    │   └── README.md                   - Short description of the ModelConverter and links to github repository, documentation and all tutorials
-    ├── others/                         - Folder containing tutorials that aren't featuring any Luxonis library
-    │   ├── image-classification/       - Folder for all image classification training tutorials
-    │   ├── object-detection/           - Folder for all object detection training tutorials (YOLO)
-    │   ├── semantic-segmentation/      - Folder for all semantic segmentation training tutorials
-    │   └── README.md                   - Short description of all available tutorials
+    │   └── README.md                       - Describes the conversion tutorials
+    ├── Training                            - Folder with tutorials showing how to train a ML model
+    │   ├── LuxonisTrain/                   - Folder with LuxonisTrain tutorials
+    │   ├── Others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
+    │   │   ├── ImageClassification
+    │   │   ├── ObjectDetection
+    │   │   └── SemanticSegmentation
+    │   └── README.md                       - Describes all the training turorials
     ├── LICENSE 
-    └── README.md                       - Description of the whole repository structure, introducing key libraries and terms, etc.
+    └── README.md                           - Describes the whole repository structure and key features
 
 <a name="run-env"></a>
 
@@ -72,10 +65,10 @@ TBA
 
 ## 📄 License
 
-TBA
+All the tutorials are licensed under the MIT license.
 
 <a name="contributing"></a>
 
 ## 🤝 Contributing
 
-TBA
+We welcome contributions! Whether it's reporting bugs, improving documentation or tutorials, or adding new tutorials, your help is much appreciated. Please create a pull request ([here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)'s how to do it) and assign anyone from the Luxonis team to review the suggested changes. Cheers!
