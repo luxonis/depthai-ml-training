@@ -14,7 +14,7 @@ This repository contains step by step tutorials on how to:
 
 ### What is DepthAI?
 
-**DepthAI** is the platform for [Spatial AI](https://rvc4.docs.luxonis.com/software/perception/spatial-ai/). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
+**DepthAI** is the platform for [Spatial AI](https://rvc4.docs.luxonis.com/software/perception/spatial-ai/). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time. We've prepared several demos for various purposes; check out [this repository](https://github.com/luxonis/depthai-experiments) to learn more about them.
 
 ## 📜 Table of contents
 
