@@ -30,15 +30,15 @@ This repository contains step by step tutorials on how to:
 ## 📂 Repository Structure
 
     depthai-ml-training/
-    ├── Conversion/                         - Folder with tutorials about ML model conversion
+    ├── conversion/                         - Folder with tutorials about ML model conversion
     │   ├── ...
     │   └── README.md                       - Describes the conversion tutorials
-    ├── Training                            - Folder with tutorials showing how to train a ML model
-    │   ├── LuxonisTrain/                   - Folder with LuxonisTrain tutorials
-    │   ├── Others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
-    │   │   ├── ImageClassification
-    │   │   ├── ObjectDetection
-    │   │   └── SemanticSegmentation
+    ├── training                            - Folder with tutorials showing how to train a ML model
+    │   ├── luxonis-train/                   - Folder with LuxonisTrain tutorials
+    │   ├── others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
+    │   │   ├── image-classification
+    │   │   ├── object-detection
+    │   │   └── semantic-segmentation
     │   └── README.md                       - Describes all the training turorials
     ├── LICENSE 
     └── README.md                           - Describes the whole repository structure and key features
