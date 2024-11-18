@@ -8,12 +8,9 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 ## LuxonisTrain Tutorials
 
-TBA
+Coming soon!
 
 ## Additional DataDreamer Tutorials
-
-<!-- [![GitHUb](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luxonis/datadreamer)
-[![Docs](https://img.shields.io/static/v1?label=Docs&message=online&color=green)](https://rvc4.docs.luxonis.com/software/ai-inference/model-source/training/datadreamer/) -->
 
 ### Object Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/datadreamer/blob/main/examples/generate_dataset_and_train_yolo.ipynb)
 

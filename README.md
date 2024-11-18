@@ -33,12 +33,12 @@ This repository contains step by step tutorials on how to:
     ├── conversion/                         - Folder with tutorials about ML model conversion
     │   ├── ...
     │   └── README.md                       - Describes the conversion tutorials
-    ├── training                            - Folder with tutorials showing how to train a ML model
-    │   ├── luxonis-train/                   - Folder with LuxonisTrain tutorials
+    ├── training/                           - Folder with tutorials showing how to train a ML model
+    │   ├── luxonis-train/                  - Folder with LuxonisTrain tutorials
     │   ├── others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
-    │   │   ├── image-classification
-    │   │   ├── object-detection
-    │   │   └── semantic-segmentation
+    │   │   ├── image-classification/
+    │   │   ├── object-detection/
+    │   │   └── semantic-segmentation/
     │   └── README.md                       - Describes all the training turorials
     ├── LICENSE 
     └── README.md                           - Describes the whole repository structure and key features
