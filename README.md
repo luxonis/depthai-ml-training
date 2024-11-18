@@ -1,7 +1,7 @@
 # DepthAI ML Training
 
 > [!IMPORTANT]  
-> We are currently writing new tutorials and updating the old ones so that some details can be outdated. We appreciate your understanding!
+> We are currently writing new tutorials and updating the old ones, meaning that some details may be outdated. We appreciate your understanding!
 
 <a name ="overview"></a>
 
@@ -9,12 +9,12 @@
 
 This repository contains step by step tutorials on how to:
 
-- Train your own Machine Learning (ML) model - either on default or custom dataset
-- Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform - conversion [docs here](https://rvc4.docs.luxonis.com/software/ai-inference/conversion/)
+- Train your own Machine Learning (ML) model - either on default or custom dataset.
+- Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform.
 
 ### What is DepthAI?
 
-**DepthAI** is the platform for [Spatial AI](https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
+**DepthAI** is the platform for [Spatial AI](https://rvc4.docs.luxonis.com/software/perception/spatial-ai/). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
 
 ## 📜 Table of contents
 

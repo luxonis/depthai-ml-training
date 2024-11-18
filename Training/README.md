@@ -29,37 +29,42 @@ TBA
 
 ## Additional Tutorials
 
-### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV3_V4_tiny_training.ipynb)
+### Image Classification Tutorials
+
+#### Simple Neural Network trained on image classification task using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ImageClassification/OpenVINO_OpenCV_OAK_Tensorflow_Image_Classification.ipynb)
+
+**Description:** This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
+
+### Object Detection Tutorials
+
+#### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV3_V4_tiny_training.ipynb)
 
 **Description:** This tutorial shows how to train an object detector based on the YoloV4-tiny and YoloV3-tiny networks. It describes the right data format, training steps, and provides further information.
 
-### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV5_training.ipynb)
+#### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV5_training.ipynb)
 
 **Description:** This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
 
-### YOLOv6 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV6_training.ipynb)
+#### YOLOv6 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV6_training.ipynb)
 
 **Description:** This tutorial shows you how to train the popular YOLOv6 model and then deploy it on your OAK model.
 
-### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV7_training.ipynb)
+#### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV7_training.ipynb)
 
 **Description:** This tutorial shows you how to train the popular YOLOv7 model and then deploy it on your OAK model.
 
-### YOLOv8 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV8_training.ipynb)
+#### YOLOv8 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ObjectDetection/YoloV8_training.ipynb)
 
 **Description:** This tutorial shows you how to train the popular YOLOv8 model and then deploy it on your OAK model.
 
-### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/SemanticSegmentation/DeepLabV3plus_MNV2.ipynb)
+### Semantic Segmentation Tutorials
+
+#### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/SemanticSegmentation/DeepLabV3plus_MNV2.ipynb)
 
 **Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone. You can test the trained model with [this experiment](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_multiclass). Examples of such trained networks are below:
 
 - Aerial Semantic Segmentation for UAV disaster recovery or automated landing ([video](https://www.youtube.com/watch?v=1EB5bpmUq1Q)).
 - Person semantic segmentation ([video](https://www.youtube.com/watch?v=zjcUChyyNgI), [demo app](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person)).
-
-
-### Simple Neural Network trained on image classification task using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/Training/Others/ImageClassification/OpenVINO_OpenCV_OAK_Tensorflow_Image_Classification.ipynb)
-
-**Description:** This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
 
 <!-- ## Don't Want to Use Colab? Check Out RoboFlow! (Legacy)
 
