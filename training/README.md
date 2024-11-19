@@ -56,7 +56,7 @@ Coming soon!
 
 ### Semantic Segmentation Tutorials
 
-#### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([qq](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/semantic-segmentation/DeepLabV3plus_MNV2.ipynb))
+#### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/semantic-segmentation/DeepLabV3plus_MNV2.ipynb)
 
 **Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone. You can test the trained model with [this experiment](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_multiclass). Examples of such trained networks are below:
 
