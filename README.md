@@ -1,23 +1,74 @@
 # DepthAI ML Training
 
-This repository contains colab notebooks that provide step by step tutorials on how to:
+> [!IMPORTANT]  
+> We are currently writing new tutorials and updating the old ones, meaning that some details may be outdated. We appreciate your understanding!
 
-1. Train your own ML model - either on default or custom dataset
-2. Convert the ML model so it's compatible with the [DepthAI](https://docs.luxonis.com/en/latest/) platform - conversion [docs here](https://docs.luxonis.com/en/latest/pages/model_conversion/)
-3. Deploy the ML model to the OAK camera, so it runs on the accelerated hardware on the edge
+<a name ="overview"></a>
 
-## Check Out RoboFlow!
+## 🌟 Overview
 
-If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com/) for annotating, training and deploying  ML models, especially if you are new to the ML world. They have created a [course for the DepthAI platform](https://roboflow.com/course) that is a great starting point. They also have two blog posts, [quickstart guide](https://blog.roboflow.com/deploy-luxonis-oak/) and training [custom object detection model](https://blog.roboflow.com/luxonis-oak-d-custom-model/).
+This repository contains step by step tutorials on how to:
 
-## What is DepthAI?
+- Train your own Machine Learning (ML) model - either on default or custom dataset.
+- Convert the ML model so it's compatible with the [DepthAI](https://rvc4.docs.luxonis.com/software/) platform.
 
- is the platform for [Spatial AI](https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai). 4 TOPS on a tiny device which can ouput structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time.
+### What is DepthAI?
 
-## What is Google Colaboratory?
+**DepthAI** is the platform for [Spatial AI](https://rvc4.docs.luxonis.com/software/perception/spatial-ai/). 4 TOPS on a tiny device that can output structured data of what is in the physical world - what it is, and where it is in meters (XYZ) - in real-time. We've prepared several demos for various purposes; check out [this repository](https://github.com/luxonis/depthai-experiments) to learn more about them.
+
+## 📜 Table of contents
+
+- [🌟 Overview](#overview)
+- [📂 Repository Structure](#repo-structure)
+- [⚙️ Where to run](#run-env)
+- [⚠️ Limitations](#limitations)
+- [📄 License](#license)
+- [🤝 Contributing](#contributing)
+
+<a name="repo-structure"></a>
+
+## 📂 Repository Structure
+
+    depthai-ml-training/
+    ├── conversion/                         - Folder with tutorials about ML model conversion
+    │   ├── ...
+    │   └── README.md                       - Describes the conversion tutorials
+    ├── training/                           - Folder with tutorials showing how to train a ML model
+    │   ├── luxonis-train/                  - Folder with LuxonisTrain tutorials
+    │   ├── others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
+    │   │   ├── image-classification/
+    │   │   ├── object-detection/
+    │   │   └── semantic-segmentation/
+    │   └── README.md                       - Describes all the training turorials
+    ├── LICENSE 
+    └── README.md                           - Describes the whole repository structure and key features
+
+<a name="run-env"></a>
+
+## ⚙️ Where to run
+
+### What is Google Colaboratory?
 
 Google Colaboratory allows you to train neural models yourself using their fast GPU instances, and in some cases (depending on the dependencies of the training frameworks), even using the Google TPU - all for free!
 
 It is exactly intended for this proof of concept and initial research.  And if you hit the limits of the free account, you can upgrade to a Pro version of Google Colab for only $10/month.
 
 You can browse (and open/use) all the Jupyter Notebooks in this repo by clicking on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training).
+
+<a name="limitations"></a>
+
+## ⚠️ Limitations
+
+TBA
+
+<a name="license"></a>
+
+## 📄 License
+
+All the tutorials are licensed under the MIT license.
+
+<a name="contributing"></a>
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it's reporting bugs, improving documentation or tutorials, or adding new tutorials, your help is much appreciated. Please create a pull request ([here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)'s how to do it) and assign anyone from the Luxonis team to review the suggested changes. Cheers!
