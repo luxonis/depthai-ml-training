@@ -21,7 +21,6 @@ This repository contains step by step tutorials on how to:
 - [🌟 Overview](#overview)
 - [📂 Repository Structure](#repo-structure)
 - [⚙️ Where to run](#run-env)
-- [⚠️ Limitations](#limitations)
 - [📄 License](#license)
 - [🤝 Contributing](#contributing)
 
@@ -54,12 +53,6 @@ Google Colaboratory allows you to train neural models yourself using their fast 
 It is exactly intended for this proof of concept and initial research.  And if you hit the limits of the free account, you can upgrade to a Pro version of Google Colab for only $10/month.
 
 You can browse (and open/use) all the Jupyter Notebooks in this repo by clicking on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training).
-
-<a name="limitations"></a>
-
-## ⚠️ Limitations
-
-TBA
 
 <a name="license"></a>
 
