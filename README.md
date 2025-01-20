@@ -36,6 +36,7 @@ This repository contains step by step tutorials on how to:
     │   ├── ...
     │   └── README.md                       - Describes the conversion tutorials
     ├── training/                           - Folder with tutorials showing how to train a ML model
+    │   ├── datadreamer/                    - Folder with tutorials featuring our DataDreamer tool
     │   ├── others/                         - Folder with tutorials featuring ML model training using other means than LuxonisTrain, such as Ultralytics or TensorFlow
     │   │   ├── image-classification/
     │   │   ├── object-detection/

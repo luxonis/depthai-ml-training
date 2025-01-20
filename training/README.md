@@ -27,15 +27,15 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 ## Additional DataDreamer Tutorials
 
-### Object Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/datadreamer/blob/main/examples/generate_dataset_and_train_yolo.ipynb)
+### Object Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_dataset_and_train_yolo.ipynb)
 
 **Description:** This tutorial shows how to use **DataDreamer** to generate an object detection dataset featuring 100 images of robots, tractors, horses, cars, people, and bears. Furthermore, the tutorial shows how to split and convert the generated dataset into YOLO format and train an [YOLOv8n](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) model using the [Ultralytics](https://github.com/ultralytics/ultralytics) library. Finally, the tutorial shows how to use our [tools](https://tools.luxonis.com/) to convert the trained model for our RVC2/3 devices.
 
-### Helmet Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/datadreamer/blob/main/examples/helmet_detection.ipynb)
+### Helmet Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/helmet_detection.ipynb)
 
 **Description:** This tutorial uses **DataDreamer** to generate a helmet detection dataset with 1000 images and [Ultralytics](https://github.com/ultralytics/ultralytics) to train an [YOLOv8m](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) model on it.
 
-### Instance Segmentation Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/datadreamer/blob/main/examples/generate_instance_segmentation_dataset_and_train_yolo.ipynb)
+### Instance Segmentation Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_instance_segmentation_dataset_and_train_yolo.ipynb)
 
 **Description:** This tutorial showcases the **DataDreamer**'s ability to generate an instance segmentation dataset in YOLO format, so it's out of the box ready for [YOLOv8-seg](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) to be trained on.
 
@@ -45,15 +45,24 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 #### Simple Neural Network trained on image classification task using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/image-classification/OpenVINO_OpenCV_OAK_Tensorflow_Image_Classification.ipynb)
 
+> [!Note]
+> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
+
 **Description:** This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
 
 ### Object Detection Tutorials
 
 #### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV3_V4_tiny_training.ipynb)
 
+> [!Note]
+> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
+
 **Description:** This tutorial shows how to train an object detector based on the YoloV4-tiny and YoloV3-tiny networks. It describes the right data format, training steps, and provides further information.
 
 #### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV5_training.ipynb)
+
+> [!Note]
+> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
 
 **Description:** This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
 
@@ -62,6 +71,9 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 **Description:** This tutorial shows you how to train the popular YOLOv6 model and then deploy it on your OAK model.
 
 #### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV7_training.ipynb)
+
+> [!Note]
+> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
 
 **Description:** This tutorial shows you how to train the popular YOLOv7 model and then deploy it on your OAK model.
 
@@ -72,6 +84,9 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 ### Semantic Segmentation Tutorials
 
 #### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/semantic-segmentation/DeepLabV3plus_MNV2.ipynb)
+
+> [!Note]
+> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
 
 **Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone. You can test the trained model with [this experiment](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_multiclass). Examples of such trained networks are below:
 
