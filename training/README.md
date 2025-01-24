@@ -85,23 +85,5 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 #### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/semantic-segmentation/DeepLabV3plus_MNV2.ipynb)
 
-> [!Note]
-> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
+**Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone  and then deploy it on your OAK model.
 
-**Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone. You can test the trained model with [this experiment](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_multiclass). Examples of such trained networks are below:
-
-- Aerial Semantic Segmentation for UAV disaster recovery or automated landing ([video](https://www.youtube.com/watch?v=1EB5bpmUq1Q)).
-- Person semantic segmentation ([video](https://www.youtube.com/watch?v=zjcUChyyNgI), [demo app](https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_person)).
-
-<!-- ## Don't Want to Use Colab? Check Out RoboFlow! (Legacy)
-
-The tutorials above are great if you are a do-it-yourself type. As all the code is there - and you can take it and run. But what if you're the "I just want a model that works type - don't care how" type - then checkout Roboflow. It has a clean and pain-free way to manage your dataset and do custom training.
-
-RoboFlow also has several tutorials on training custom models for depthai, including OAK-1 and OAK-D, but the same training is applicable for any/all DepthAI devices.  See some below:
-
- - https://blog.roboflow.com/luxonis-oak-d-custom-model/
- - https://blog.roboflow.com/deploy-luxonis-oak/ -->
-
-<!-- ## Check Out RoboFlow!
-
-If you are new to the ML world, we suggest using [RoboFlow](https://roboflow.com/) for annotating, training and deploying  ML models, especially if you are new to the ML world. They have created a [course for the DepthAI platform](https://roboflow.com/course) that is a great starting point. They also have two blog posts, [quickstart guide](https://blog.roboflow.com/deploy-luxonis-oak/) and training [custom object detection model](https://blog.roboflow.com/luxonis-oak-d-custom-model/). -->
