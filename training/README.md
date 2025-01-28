@@ -1,6 +1,6 @@
 # Training Tutorials
 
-Here, we show how to train ML models on various tasks using our libraries and others. We will mainly use [LuxonisTrain](https://github.com/luxonis/luxonis-train) for the training. To enlarge datasets by generating synthetic ones or annotating unlabeled images, we will use [DataDreamer](https://github.com/luxonis/datadreamer). In addition, we also present how to train popular models like YOLO (version V3 to v8) for object detection, DeeplabV3+ for semantic image segmentation, and a simple Neural Network for image classification.
+Here, we show how to train ML models on various tasks using our libraries and others. We will mainly use [LuxonisTrain](https://github.com/luxonis/luxonis-train) for the training. To enlarge datasets by generating synthetic ones or annotating unlabeled images, we will use [DataDreamer](https://github.com/luxonis/datadreamer). In addition, we also present how to train popular models like YOLO (version V5 to v8) for object detection, DeeplabV3+ for semantic image segmentation, and a simple Neural Network for image classification.
 
 **LuxonisTrain** is a user-friendly tool designed to streamline the training of deep learning models, especially for edge devices. To read the official documentation, please refer to [here](https://rvc4.docs.luxonis.com/software/ai-inference/model-source/training/luxonis-train/).
 
@@ -51,13 +51,6 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 **Description:** This tutorial shows you how to train a simple image classification model using Tensorflow and then export it.
 
 ### Object Detection Tutorials
-
-#### Tiny YoloV3 and YoloV4 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV3_V4_tiny_training.ipynb)
-
-> [!Note]
-> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
-
-**Description:** This tutorial shows how to train an object detector based on the YoloV4-tiny and YoloV3-tiny networks. It describes the right data format, training steps, and provides further information.
 
 #### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV5_training.ipynb)
 
