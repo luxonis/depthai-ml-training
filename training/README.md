@@ -78,5 +78,18 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 #### Deeplabv3 Plus Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/semantic-segmentation/DeepLabV3plus_MNV2.ipynb)
 
-**Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone  and then deploy it on your OAK model.
+**Description:** This tutorial shows you how to train semantic-segmentation networks with Deeplabv3+ with a MobileNetv2 backbone and then deploy it on your OAK model.
+
+### Instance Segmentation Tutorials
+
+#### YOLO11 Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/instance-segmentation/yolo11_instance_segmentation_training.ipynb)
+
+**Description:** This tutorial shows you how to train the instance-segmentation YOLO11 nano model and deploy it on your OAK model.
+
+### Pose Estimation Tutorials
+
+#### YOLO11 Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/pose-estimation/yolo11_pose_estimation_training.ipynb)
+
+**Description:** This tutorial shows you how to train the pose-estimation YOLO11 nano model and deploy it on your OAK model.
+
 
