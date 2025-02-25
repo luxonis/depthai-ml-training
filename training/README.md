@@ -54,9 +54,6 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 #### YOLOv5 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV5_training.ipynb)
 
-> [!Note]
-> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
-
 **Description:** This tutorial shows you how to train the popular YOLOv5 model and then deploy it on your OAK model.
 
 #### YOLOv6 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV6_training.ipynb)
@@ -64,9 +61,6 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 **Description:** This tutorial shows you how to train the popular YOLOv6 model and then deploy it on your OAK model.
 
 #### YOLOv7 Object Detector Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/object-detection/YoloV7_training.ipynb)
-
-> [!Note]
-> We are currently updating this tutorial. Some details may be outdated. We appreciate your understanding!
 
 **Description:** This tutorial shows you how to train the popular YOLOv7 model and then deploy it on your OAK model.
 
@@ -91,5 +85,4 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 #### YOLO11 Training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/others/pose-estimation/yolo11_pose_estimation_training.ipynb)
 
 **Description:** This tutorial shows you how to train the pose-estimation YOLO11 nano model and deploy it on your OAK model.
-
 
