@@ -24,6 +24,10 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 **Description:** This tutorial shows how to use **DataDreamer** to enrich an existing dataset by generating more samples, train a semantic segmentation model using **LuxonisTrain**, its conversion using **ModelConverter**, and how to run the trained model on a Luxonis device using **DepthAI v3**.
 
+### Instance Segmentation Training with Dataset Generation Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/train_instance_segmentation_model.ipynb)
+
+**Description:** This tutorial shows how to train an instance segmentation model using **LuxonisTrain**, its conversion using **ModelConverter**, and how to run the trained model on a Luxonis device using **DepthAI v3**.
+
 
 ## Additional DataDreamer Tutorials
 
