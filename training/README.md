@@ -33,6 +33,10 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 **Description:**: This tutorial walks through creating a custom leaf segmentation model using **LuxonisTrain** and a Roboflow dataset. By leveraging **LuxonisTrain**’s flexible framework, we seamlessly combine new custom modules—like a UNet encoder-decoder and a specialized loss function—with existing components, then train, evaluate, and export the model (ONNX) for efficient deployment.
 
+### Pose Estimation Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/train_pose_estimation_model.ipynb)
+
+**Description:** This tutorial shows how to train a pose estimation model using **LuxonisTrain**, its conversion using **ModelConverter**, and how to run the trained model on a Luxonis device using **DepthAI v3**.
+
 
 ## Additional DataDreamer Tutorials
 
