@@ -31,7 +31,7 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 ### Custom Segmentation Model Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/luxonis_train_custom_model.ipynb)
 
-**Description:**: This tutorial walks through creating a custom leaf segmentation model using **LuxonisTrain** and a Roboflow dataset. By leveraging **LuxonisTrain**’s flexible framework, we seamlessly combine new custom modules—like a UNet encoder-decoder and a specialized loss function—with existing components, then train, evaluate, and export the model (ONNX) for efficient deployment.
+**Description:** This tutorial walks through creating a custom leaf segmentation model using **LuxonisTrain** and a Roboflow dataset. By leveraging **LuxonisTrain**’s flexible framework, we seamlessly combine new custom modules—like a UNet encoder-decoder and a specialized loss function—with existing components, then train, evaluate, and export the model (ONNX) for efficient deployment.
 
 
 ## Additional DataDreamer Tutorials
