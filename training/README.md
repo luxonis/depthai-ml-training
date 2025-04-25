@@ -15,34 +15,35 @@ Additionally, we cover how to train popular models such as:
 - A simple **neural network** for image classification
 
 ## 🔎 Table of Contents
-- [🗂️ Prepare Data Using Luxonis-ML](#prepare-data-using-luxonis-ml)
-  - [Luxonis-Train Dataset Preparation Using a Custom Generator Function](#luxonis-train-dataset-preparation-using-a-custom-generator-function)
-  - [Luxonis-Train Dataset Preparation Using Parsers](#luxonis-train-dataset-preparation-using-parsers)
-- [📚 Luxonis-Train Tutorials](#luxonstrain-tutorials)
-  - [Image Classification Training Tutorial](#image-classification-training-tutorial)
-  - [Object Detection Training Tutorial](#object-detection-training-tutorial)
-  - [Object Detection Training with DataDreamer Tutorial](#object-detection-training-with-datadreamer-tutorial)
-  - [Semantic Segmentation Training with Dataset Generation Tutorial](#semantic-segmentation-training-with-dataset-generation-tutorial)
-  - [Instance Segmentation Training with Dataset Generation Tutorial](#instance-segmentation-training-with-dataset-generation-tutorial)
-  - [Custom Segmentation Model Training Tutorial](#custom-segmentation-model-training-tutorial)
-- [✨ Additional DataDreamer Tutorials](#additional-datadreamer-tutorials)
-  - [Object Detection Dataset Generation and YOLOv8 training](#object-detection-dataset-generation-and-yolov8-training)
-  - [Helmet Detection Dataset Generation and YOLOv8 training](#helmet-detection-dataset-generation-and-yolov8-training)
-  - [Instance Segmentation Dataset Generation and YOLOv8 training](#instance-segmentation-dataset-generation-and-yolov8-training)
-- [📘 Additional Tutorials](#additional-tutorials)
+- [🗂️ Prepare Data Using Luxonis-ML](#️-prepare-data-using-luxonis-ml)
+  - [Luxonis-Train Dataset Preparation Using a Custom Generator Function](#luxonis-train-dataset-preparation-using-a-custom-generator-function-)
+  - [Luxonis-Train Dataset Preparation Using Parsers](#luxonis-train-dataset-preparation-using-parsers-)
+- [📚 Luxonis-Train Tutorials](#-luxonis-train-tutorials)
+  - [Image Classification Training Tutorial](#image-classification-training-tutorial-)
+  - [Object Detection Training Tutorial](#object-detection-training-tutorial-)
+  - [Object Detection Training with DataDreamer Tutorial](#object-detection-training-with-datadreamer-tutorial-)
+  - [Semantic Segmentation Training with Dataset Generation Tutorial](#semantic-segmentation-training-with-dataset-generation-tutorial-)
+  - [Instance Segmentation Training with Dataset Generation Tutorial](#instance-segmentation-training-with-dataset-generation-tutorial-)
+  - [Custom Segmentation Model Training Tutorial](#custom-segmentation-model-training-tutorial-)
+  - [Custom Loader Detection VOC Training Tutorial](#custom-loader-detection-voc-training-tutorial-)
+- [✨ Additional DataDreamer Tutorials](#-additional-datadreamer-tutorials)
+  - [Object Detection Dataset Generation and YOLOv8 training](#object-detection-dataset-generation-and-yolov8-training-)
+  - [Helmet Detection Dataset Generation and YOLOv8 training](#helmet-detection-dataset-generation-and-yolov8-training-)
+  - [Instance Segmentation Dataset Generation and YOLOv8 training](#instance-segmentation-dataset-generation-and-yolov8-training-)
+- [📘 Additional Tutorials](#-additional-tutorials)
   - [Image Classification Tutorials](#image-classification-tutorials)
-    - [Simple Neural Network trained on image classification task using TensorFlow](#simple-neural-network-trained-on-image-classification-task-using-tensorflow)
+    - [Simple Neural Network trained on image classification task using TensorFlow](#simple-neural-network-trained-on-image-classification-task-using-tensorflow-)
   - [Object Detection Tutorials](#object-detection-tutorials)
-    - [YOLOv5 Object Detector Training](#yolov5-object-detector-training)
-    - [YOLOv6 Object Detector Training](#yolov6-object-detector-training)
-    - [YOLOv7 Object Detector Training](#yolov7-object-detector-training)
-    - [YOLOv8 Object Detector Training](#yolov8-object-detector-training)
-  - [Semantic Segmentation Tutorials](#semantic-segmentation-tutorials)
-    - [Deeplabv3 Plus Training](#deeplabv3-plus-training)
+    - [YOLOv5 Object Detector Training](#yolov5-object-detector-training-)
+    - [YOLOv6 Object Detector Training](#yolov6-object-detector-training-)
+    - [YOLOv7 Object Detector Training](#yolov7-object-detector-training-)
+    - [YOLOv8 Object Detector Training](#yolov8-object-detector-training-)
+  - [Semantic Segmentation Tutorials](#semantic-segmentation-tutorials-)
+    - [Deeplabv3 Plus Training](#deeplabv3-plus-training-)
   - [Instance Segmentation Tutorials](#instance-segmentation-tutorials)
-    - [YOLO11 Training (Instance Segmentation)](#yolo11-training-instance-segmentation)
+    - [YOLO11 Training (Instance Segmentation)](#yolo11-training-)
   - [Pose Estimation Tutorials](#pose-estimation-tutorials)
-    - [YOLO11 Training (Pose Estimation)](#yolo11-training-pose-estimation)
+    - [YOLO11 Training (Pose Estimation)](#yolo11-training--1)
 
 
 
@@ -91,6 +92,12 @@ The resulting dataset can then be used to train models with `luxonis-train`.
 ### Custom Segmentation Model Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/luxonis_train_custom_model.ipynb)
 
 **Description:**: This tutorial walks through creating a custom leaf segmentation model using **Luxonis-Train** and a Roboflow dataset. By leveraging **Luxonis-Train**’s flexible framework, we seamlessly combine new custom modules—like a UNet encoder-decoder and a specialized loss function—with existing components, then train, evaluate, and export the model (ONNX) for efficient deployment.
+
+
+### Custom Loader Detection VOC Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/luxonis_train_custom_loader.ipynb)
+
+**Description:** This tutorial demonstrates how to use a custom data loader based on `BaseLoaderTorch` to train object detection models on the VOC dataset using **LuxonisTrain**.
+
 
 ## ✨ Additional DataDreamer Tutorials
 
