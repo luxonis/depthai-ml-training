@@ -33,6 +33,17 @@ Here, we show how to train ML models on various tasks using our libraries and ot
 
 **Description:**: This tutorial walks through creating a custom leaf segmentation model using **LuxonisTrain** and a Roboflow dataset. By leveraging **LuxonisTrain**’s flexible framework, we seamlessly combine new custom modules—like a UNet encoder-decoder and a specialized loss function—with existing components, then train, evaluate, and export the model (ONNX) for efficient deployment.
 
+### Luxonis-Train Dataset Preparation Using a Custom Generator Function [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/dataset-preparation/custom_dataset_generator.ipynb)
+
+**Description:**  
+This tutorial demonstrates how to create a custom generator and use it to build a `LuxonisDataset` with [Luxonis-ml](https://github.com/luxonis/luxonis-ml/blob/main/luxonis_ml/data/README.md).  
+The resulting dataset can then be used to train models with `luxonis-train`.
+
+### Luxonis-Train Dataset Preparation Using Parsers [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/dataset-preparation/dataset_parsing.ipynb)
+
+**Description:**  
+This tutorial shows how to create a `LuxonisDataset` using built-in parsers from [Luxonis-ml](https://github.com/luxonis/luxonis-ml/blob/main/luxonis_ml/data/README.md).  
+The resulting dataset can then be used to train models with `luxonis-train`.
 
 ## Additional DataDreamer Tutorials
 
