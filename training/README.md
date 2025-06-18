@@ -25,11 +25,11 @@ Additionally, we cover how to train popular models such as:
   - [Semantic Segmentation Training with Dataset Generation Tutorial](#semantic-segmentation-training-with-dataset-generation-tutorial-)
   - [Instance Segmentation Training with Dataset Generation Tutorial](#instance-segmentation-training-with-dataset-generation-tutorial-)
   - [Custom Segmentation Model Training Tutorial](#custom-segmentation-model-training-tutorial-)
-  - [Custom Loader Detection VOC Training Tutorial](#custom-loader-detection-voc-training-tutorial-)
+  - [Custom Loader for Detection: VOC Training Tutorial](#custom-loader-detection-voc-training-tutorial-)
 - [✨ Additional DataDreamer Tutorials](#-additional-datadreamer-tutorials)
-  - [Object Detection Dataset Generation and YOLOv8 training](#object-detection-dataset-generation-and-yolov8-training-)
-  - [Helmet Detection Dataset Generation and YOLOv8 training](#helmet-detection-dataset-generation-and-yolov8-training-)
-  - [Instance Segmentation Dataset Generation and YOLOv8 training](#instance-segmentation-dataset-generation-and-yolov8-training-)
+  - [Object Detection, Dataset Generation, and YOLOv8 training](#object-detection-dataset-generation-and-yolov8-training-)
+  - [Helmet Detection, Dataset Generation, and YOLOv8 training](#helmet-detection-dataset-generation-and-yolov8-training-)
+  - [Instance Segmentation, Dataset Generation, and YOLOv8 training](#instance-segmentation-dataset-generation-and-yolov8-training-)
 - [📘 Additional Tutorials](#-additional-tutorials)
   - [Image Classification Tutorials](#image-classification-tutorials)
     - [Simple Neural Network trained on image classification task using TensorFlow](#simple-neural-network-trained-on-image-classification-task-using-tensorflow-)
@@ -96,22 +96,22 @@ The resulting dataset can then be used to train models with `luxonis-train`.
 
 **Description:** This tutorial shows how to train a pose estimation model using **LuxonisTrain**, its conversion using **ModelConverter**, and how to run the trained model on a Luxonis device using **DepthAI v3**.
 
-### Custom Loader Detection VOC Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/luxonis_train_custom_loader.ipynb)
+### Custom Loader for Detection: VOC Training Tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/luxonis_train_custom_loader.ipynb)
 
 **Description:** This tutorial demonstrates how to use a custom data loader based on `BaseLoaderTorch` to train object detection models on the VOC dataset using **LuxonisTrain**.
 
 
 ## ✨ Additional DataDreamer Tutorials
 
-### Object Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_dataset_and_train_yolo.ipynb)
+### Object Detection, Dataset Generation, and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_dataset_and_train_yolo.ipynb)
 
 **Description:** This tutorial shows how to use **DataDreamer** to generate an object detection dataset featuring 100 images of robots, tractors, horses, cars, people, and bears. Furthermore, the tutorial shows how to split and convert the generated dataset into YOLO format and train an [YOLOv8n](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) model using the [Ultralytics](https://github.com/ultralytics/ultralytics) library. Finally, the tutorial shows how to use our [tools](https://tools.luxonis.com/) to convert the trained model for our RVC2/3 devices.
 
-### Helmet Detection Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/helmet_detection.ipynb)
+### Helmet Detection, Dataset Generation, and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/helmet_detection.ipynb)
 
 **Description:** This tutorial uses **DataDreamer** to generate a helmet detection dataset with 1000 images and [Ultralytics](https://github.com/ultralytics/ultralytics) to train an [YOLOv8m](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) model on it.
 
-### Instance Segmentation Dataset Generation and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_instance_segmentation_dataset_and_train_yolo.ipynb)
+### Instance Segmentation, Dataset Generation, and YOLOv8 training [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luxonis/depthai-ml-training/blob/main/training/datadreamer/generate_instance_segmentation_dataset_and_train_yolo.ipynb)
 
 **Description:** This tutorial showcases the **DataDreamer**'s ability to generate an instance segmentation dataset in YOLO format, so it's out of the box ready for [YOLOv8-seg](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) to be trained on.
 
